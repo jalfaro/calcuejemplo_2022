@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pantalla"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:textSize="30sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/n1"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="1" />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:layout_height="3dp"/>
+        <Button
+            android:id="@+id/n2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="2" />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:layout_height="3dp"/>
+        <Button
+            android:id="@+id/n3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="3" />
+        <View
+            android:layout_width="0dp"
+            android:layout_weight=".3"
+            android:layout_height="3dp"/>
+        <Button
+            android:id="@+id/opsuma"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="+" />
+    </LinearLayout>
+
+</LinearLayout>
